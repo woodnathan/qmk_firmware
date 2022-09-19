@@ -16,7 +16,6 @@
 
 #define MATRIX_ROW_PINS { F0, F1, F4, F5, F6 }
 #define MATRIX_COL_PINS { B0, B1, B2, B3, B4, B5, B6, B7, D0, D1, D2, D3, D4, D5, D6, D7 }
-#define UNUSED_PINS
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
@@ -50,7 +49,6 @@
  */
 #define RGB_DI_PIN E6
 #define RGBLED_NUM 6
-#define RGBLIGHT_ANIMATIONS
 // RGB Matrix support
 #define DRIVER_LED_TOTAL RGBLED_NUM
 #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 50
